@@ -1,5 +1,7 @@
 import profilePhoto from '../public/Jonas.png';
 import Image from 'next/image';
+import LinkToPageButton from '../components/LinkToPageButton';
+import GetResumeButton from '../components/GetResumeButton';
 
 const about = () => {
     return (
@@ -15,15 +17,8 @@ const about = () => {
                     developer and practical solutions in PROJECTS section.
                 </p>
                 <div className='flex gap-4'>
-                    <a className='px-4 py-2.5 bg-red-400 text-white' href=''>
-                        Resume
-                    </a>
-                    <a
-                        className='px-4 py-2.5 bg-neutral-500 text-white'
-                        href='#projects'
-                    >
-                        Projects
-                    </a>
+                    <GetResumeButton />
+                    <LinkToPageButton href='/projects' text='projects' />
                 </div>
             </div>
             <div className='my-auto ml-auto'>

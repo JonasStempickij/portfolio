@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import GetResumeButton from './GetResumeButton';
 
 function useScrollDirection() {
     const [scrollDirection, setScrollDirection] = useState(null);
@@ -37,18 +38,21 @@ const Navbar = () => {
         >
             <div className='container flex justify-between mx-auto py-4'>
                 <Link href='/'>
-                    <a className='text-5xl font-semibold italic'>JS</a>
+                    <a className='text-5xl font-semibold italic '>JS</a>
                 </Link>
                 <div className='flex items-center gap-7'>
                     <Link href='about'>
-                        <a className='text-2xl'>About Me</a>
+                        <a className='text-2xl hover:text-gray-600 '>
+                            About Me
+                        </a>
                     </Link>
                     <Link href='projects'>
-                        <a className='text-2xl'>Projects</a>
+                        <a className='text-2xl hover:text-gray-600'>Projects</a>
                     </Link>
                     <Link href='contact'>
-                        <a className='text-2xl'>Contact</a>
+                        <a className='text-2xl hover:text-gray-600'>Contact</a>
                     </Link>
+                    <GetResumeButton />
                 </div>
             </div>
         </nav>

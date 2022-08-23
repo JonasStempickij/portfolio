@@ -1,5 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
+import GetResumeButton from '../components/GetResumeButton';
+import LinkToPageButton from '../components/LinkToPageButton';
 
 export default function Home() {
     return (
@@ -26,17 +28,8 @@ export default function Home() {
                             Your next junior Front-end developer
                         </p>
                         <div className='flex gap-4'>
-                            <a
-                                className='px-4 py-2.5 bg-red-400 text-white'
-                                href=''
-                            >
-                                Resume
-                            </a>
-                            <Link href='about'>
-                                <a className='px-4 py-2.5 bg-neutral-500 text-white'>
-                                    About Me
-                                </a>
-                            </Link>
+                            <GetResumeButton />
+                            <LinkToPageButton href='/about' text='About Me' />
                         </div>
                     </div>
                 </section>
