@@ -1,14 +1,14 @@
-import jsLogo from './javascript_logo.svg';
-import reactLogo from './react_logo.svg';
-import nextjsLogo from './nextjs_logo.svg';
-import tailwindcssLogo from './tailwindcss_logo.svg';
-import sassLogo from './sass_logo.svg';
-import boostrapLogo from './bootstrap_logo.svg';
-import reduxLogo from './redux_logo.svg';
-import gitLogo from './git_logo.svg';
-import figmaLogo from './figma_logo.svg';
-import mongoDBLogo from './mongodb_logo.svg';
-import firebaseLogo from './firebase_logo.svg';
+import jsLogo from './javascriptlogo.svg';
+import reactLogo from './reactlogo.svg';
+import nextjsLogo from './nextjslogo.svg';
+import tailwindcssLogo from './tailwindcsslogo.svg';
+import sassLogo from './sasslogo.svg';
+import boostrapLogo from './bootstraplogo.svg';
+import reduxLogo from './reduxlogo.svg';
+import gitLogo from './gitlogo.svg';
+import figmaLogo from './figmalogo.svg';
+import mongoDBLogo from './mongodblogo.svg';
+import firebaseLogo from './firebaselogo.svg';
 
 export const logoList = [
     { name: 'Javascript', logo: jsLogo },

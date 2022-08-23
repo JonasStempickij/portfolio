@@ -29,6 +29,9 @@ const about = () => {
                 </div>
                 <div className='my-auto ml-auto'>
                     <Image
+                        priority={true}
+                        width={340}
+                        height={380}
                         src={profilePhoto}
                         className='rounded-xl'
                         alt='Photo'
