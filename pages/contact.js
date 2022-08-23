@@ -1,9 +1,9 @@
 import Image from 'next/image';
 import Head from 'next/head';
 import { ContactForm } from '../components';
-import linkedInLogo from '../public/Icons/linkedIn_logo.svg';
-import githubLogo from '../public/Icons/github_logo.svg';
-import emailLogo from '../public/Icons/email_logo.svg';
+import linkedInLogo from '../public/icons/linkedIn_logo.svg';
+import githubLogo from '../public/icons/github_logo.svg';
+import emailLogo from '../public/icons/email_logo.svg';
 
 const contact = () => {
     const linkedInURL =
