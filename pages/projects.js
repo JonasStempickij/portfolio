@@ -1,4 +1,4 @@
-import { logoList } from '../public/Icons/index';
+import { logoList } from '../public/icons/index';
 import omsExample from '../public/OMS-example.png';
 import Image from 'next/image';
 import Head from 'next/head';
