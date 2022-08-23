@@ -10,8 +10,8 @@ const about = () => {
             <Head>
                 <title>About Me</title>
             </Head>
-            <article className='h-screen container grid grid-cols-2 mx-auto'>
-                <div className='flex flex-col justify-center gap-3'>
+            <article className='h-screen container flex grid-cols-2 mx-auto sm:grid'>
+                <div className='flex flex-col justify-center gap-3 px-4'>
                     <h2 className='text-4xl'>About</h2>
                     <p>
                         Hello! I&apos;m Jonas Stempickij, a passionate front-end
@@ -27,7 +27,7 @@ const about = () => {
                         <LinkToPageButton href='/projects' text='projects' />
                     </div>
                 </div>
-                <div className='my-auto ml-auto'>
+                <div className='my-auto ml-auto hidden sm:block'>
                     <Image
                         priority={true}
                         width={340}

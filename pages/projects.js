@@ -14,7 +14,7 @@ const projects = () => {
                 <h2 className='text-4xl'>Projects</h2>
                 <p className='text-2xl'>My tech experience</p>
 
-                <div className='flex gap-4 justify-center'>
+                <div className='flex gap-4 justify-center px-4'>
                     {logoList.map((logo, index) => {
                         return (
                             <Tooltip key={index} text={logo.name}>
@@ -28,8 +28,8 @@ const projects = () => {
                         );
                     })}
                 </div>
-                <div className='grid grid-cols-2'>
-                    <div className='flex flex-col gap-4 px-12 text-left justify-center'>
+                <div className='flex flex-col gap-4 md:grid grid-cols-2'>
+                    <div className='flex flex-col gap-4 px-4 sm:px-0 text-left justify-center'>
                         <p className='text-xl font-medium'>
                             Order Managment System
                         </p>
@@ -70,7 +70,7 @@ const projects = () => {
                         </div>
                     </div>
 
-                    <div>
+                    <div className='px-4 sm:px-0'>
                         <Image
                             className='rounded-lg float-left'
                             src={omsExample}

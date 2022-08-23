@@ -29,7 +29,11 @@ export const ContactForm = () => {
     };
 
     return (
-        <form className='flex flex-col gap-4' ref={form} onSubmit={sendEmail}>
+        <form
+            className='flex flex-col gap-4 px-4 sm:px-0'
+            ref={form}
+            onSubmit={sendEmail}
+        >
             <div className='flex flex-col'>
                 <label className='text-sm'>Your name</label>
                 <input
@@ -37,6 +41,7 @@ export const ContactForm = () => {
                     type='text'
                     name='user_name'
                     placeholder='John Smith'
+                    required
                 />
             </div>
             <div className='flex flex-col'>
@@ -46,6 +51,7 @@ export const ContactForm = () => {
                     type='email'
                     name='user_email'
                     placeholder='johnsmith@gmail.com'
+                    required
                 />
             </div>
             <div className='flex flex-col'>
@@ -54,6 +60,7 @@ export const ContactForm = () => {
                     className='bg-neutral-100 p-2'
                     name='message'
                     placeholder='Here you can leave job opportunities or leave a message :)'
+                    required
                 />
             </div>
 
