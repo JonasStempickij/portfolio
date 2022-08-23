@@ -52,14 +52,18 @@ const projects = () => {
                         </p>
                         <div className='flex gap-4'>
                             <a
-                                className='px-4 py-2.5 bg-red-400 text-white'
+                                className='px-4 py-2.5 bg-red-400 text-white hover:bg-red-500 transition-colors'
                                 href='https://oms-next.vercel.app/'
+                                target='_blank'
+                                rel='noreferrer'
                             >
                                 Live Site
                             </a>
                             <a
-                                className='px-4 py-2.5 bg-stone-400 text-white'
+                                className='px-4 py-2.5 capitalize bg-slate-500 text-white hover:bg-slate-600 transition-colors'
                                 href='https://github.com/JonasStempickij/oms-next'
+                                target='_blank'
+                                rel='noreferrer'
                             >
                                 Repo
                             </a>
