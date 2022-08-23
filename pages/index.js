@@ -18,7 +18,7 @@ export default function Home() {
             <main>
                 <section
                     id='home'
-                    className='h-screen container flex items-center justify-center grid-cols-2 mx-auto content-center sm:grid'
+                    className='h-screen container flex items-center justify-center grid-cols-2 mx-auto content-center sm:grid animate-fadeIn'
                 >
                     <div className='flex flex-col gap-3'>
                         <h1 className='text-6xl'>

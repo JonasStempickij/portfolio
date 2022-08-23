@@ -16,7 +16,7 @@ const contact = () => {
             <Head>
                 <title>Contact</title>
             </Head>
-            <article className='container mx-auto h-screen flex flex-col justify-center md:grid grid-cols-2 gap-4 content-center'>
+            <article className='container mx-auto h-screen flex flex-col justify-center md:grid grid-cols-2 gap-4 content-center animate-fadeIn'>
                 <div className='flex flex-col gap-4 px-4 sm:px-0'>
                     <h2 className='text-4xl font-medium'>Contact</h2>
                     <p className='text-3xl'>

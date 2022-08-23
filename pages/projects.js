@@ -10,7 +10,7 @@ const projects = () => {
             <Head>
                 <title>Projects</title>
             </Head>
-            <article className='container flex flex-col gap-6 mt-40 mx-auto text-center'>
+            <article className='container flex flex-col gap-6 mt-40 mx-auto text-center animate-fadeIn'>
                 <h2 className='text-4xl'>Projects</h2>
                 <p className='text-2xl'>My tech experience</p>
 

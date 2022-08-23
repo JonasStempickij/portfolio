@@ -10,9 +10,9 @@ const about = () => {
             <Head>
                 <title>About Me</title>
             </Head>
-            <article className='h-screen container flex grid-cols-2 mx-auto sm:grid'>
+            <article className='h-screen container flex grid-cols-2 mx-auto sm:grid animate-fadeIn '>
                 <div className='flex flex-col justify-center gap-3 px-4'>
-                    <h2 className='text-4xl'>About</h2>
+                    <h2 className='text-4xl '>About</h2>
                     <p>
                         Hello! I&apos;m Jonas Stempickij, a passionate front-end
                         developer from Lithuania. My core skills are Javascript,
